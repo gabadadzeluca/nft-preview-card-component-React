@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.authorDiv{
+    width: 100%;
+    color: #8BACD9;
+    font-size: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+}
+.author{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 17rem;
+}
+.name{
+    color: white;
+}
+
+.profilePic{
+    margin-right: 1.6rem;
+    border: 0.1rem solid white;
+    width: 3.3rem;
+    height: 3.3rem;
+    border-radius: 100%;
+}

@@ -1,0 +1,38 @@
+.info-div{
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: white;
+}
+p{
+    color: #8BACD9;
+    font-size: 1.8rem;
+}
+.inline{
+    width: 100%;
+    font-size: 1.5rem;
+    display: inline-flex;
+    justify-content: space-between;
+    border-bottom: 0.1px solid #2E405A;
+    margin-bottom: 2rem;
+}
+.count{
+    color:#00FFF8;
+    background-image:url("./images/icon-ethereum.svg") ;
+    font-weight: 600;
+}
+.time{
+    background-image: url("./images/icon-clock.svg");
+}
+.time,.count{
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+}
+
+

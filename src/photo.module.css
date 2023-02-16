@@ -1,0 +1,26 @@
+.photo{
+    background-image: url("./images/image-equilibrium.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27.8rem;
+    width: 27.8rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.view{
+    width: inherit;
+    height: inherit;
+    position: relative;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo:hover .view{
+    display: flex;
+    background-color:  #00FFF8;
+    opacity: 0.6;
+}
